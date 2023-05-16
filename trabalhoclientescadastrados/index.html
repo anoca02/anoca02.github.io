@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Dados de clientes</title>
+</head>
+<body>
+    <center>
+        <h1>Clientes cadastrados</h1>
+    </center>
+    <table>
+        <tr>
+            <th>Cliente</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>E-mail</th>
+        </tr>
+        <tr>
+            <td>Ana Regina</td>
+            <td>29</td>
+            <td>Curitiba</td>
+            <td><b>Paraná</b></td>
+            <td>ana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Fernanda Silva</td>
+            <td>42</td>
+            <td>Joinville</td>
+            <td><b>Santa Catarina</b></td>
+            <td>fernanda@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rodrigo Ferreira</td>
+            <td>70</td>
+            <td>Curitiba</td>
+            <td><b>Paraná</b></td>
+            <td>rodrigo@gmail.com</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Cadastrar novo cliente</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="idade">Idade:</label>
+            <input type="text" name="idade" id="idade">
+            <br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+            <br>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="parana">Paraná</option>
+                <option value="rio grande do sul">Rio Grande Do Sul</option>
+                <option value="santa catarina">Santa Catarina</option>
+                <option value="sao paulo">São Paulo</option>
+                <option value="rio de janeiro">Rio De Janeiro</option>
+                <option value="goias">Goias</option>
+            </select>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <input id="cancelar" type="reset" value="Cancelar" />
+            <input id="salvar" type="submit" value="Salvar" />
+        </fieldset>
+    </form>
+</body>
+</html>
