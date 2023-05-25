@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: orange;
+}
+#menu{
+    list-style-type: none;
+    text-align: right;
+
+}
+fieldset{
+    border-color: rgb(243, 133, 243);
+    border-style: dotted;
+}
+#git4{
+    border-color: purple;
+    width: 1800px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 3px;
+}
+#menu li{
+    display: inline;
+    margin-right: 5px;
+}
+
+
+
